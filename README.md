@@ -59,6 +59,7 @@ df = pd.read_csv("metadata.csv", nrows=10000)
 This preserves key trends while remaining lightweight for GitHub and Streamlit.
 
 - **Handling Missing Values:**
+
 | Action     | Reason       |
 |------------|--------------|
 | Dropped columns `mag_id`, `who_covidence_id`, `arxiv_id`, `s2_id` | 100% missing |
@@ -93,3 +94,4 @@ Handling the large dataset and extensive missing values was the main challenge.
 
 
 Dependencies are listed in requirements.txt (versions not pinned for flexibility).
+
