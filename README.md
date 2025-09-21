@@ -61,11 +61,11 @@ This preserves key trends while remaining lightweight for GitHub and Streamlit.
 - **Handling Missing Values:**
 | Action     | Reason       |
 |------------|--------------|
-|Dropped columns `mag_id`, `who_covidence_id`, `arxiv_id`, `s2_id` | 100% missing |
-|Filled `abstract` with "No abstract" | Preserve rows for word cloud |
-|Filled `authors` & `journal` with "Unknown" | Retain valuable rows |
-|Dropped unused columns `sha`, `pdf_json_files`, `pmc_json_files` | Not needed for analysis |
-|Converted `publish_time` to datetime | Enable year-based trends |
+| Dropped columns `mag_id`, `who_covidence_id`, `arxiv_id`, `s2_id` | 100% missing |
+| Filled `abstract` with "No abstract" | Preserve rows for word cloud |
+| Filled `authors` & `journal` with "Unknown" | Retain valuable rows |
+| Dropped unused columns `sha`, `pdf_json_files`, `pmc_json_files` | Not needed for analysis |
+| Converted `publish_time` to datetime | Enable year-based trends |
 
 ## 📊 Key Findings
 
@@ -90,5 +90,6 @@ Handling the large dataset and extensive missing values was the main challenge.
 - Streamlit for interactive web apps
 
 ## 🛠️ Requirements
+
 
 Dependencies are listed in requirements.txt (versions not pinned for flexibility).
