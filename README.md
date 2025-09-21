@@ -6,7 +6,7 @@ This project analyzes a **sample of the CORD-19 metadata dataset** and provides 
 
 ## 📁 Project Structure
 
-
+```
 Frameworks_Assignment/
 │
 ├─ data/
@@ -21,7 +21,7 @@ Frameworks_Assignment/
 │
 ├─ requirements.txt # Python dependencies
 └─ README.md # Project documentation
-
+```
 
 ---
 
@@ -41,7 +41,7 @@ Frameworks_Assignment/
 - A cleaned subset (`metadata_cleaned.csv`) will be saved in `data/`.
 
 4. **Launch the Streamlit App**
-    ```bash
+    ```python
     cd app
     streamlit run streamlit_app.py
     ```
@@ -94,4 +94,5 @@ Handling the large dataset and extensive missing values was the main challenge.
 
 
 Dependencies are listed in requirements.txt (versions not pinned for flexibility).
+
 
